@@ -71,7 +71,7 @@ run() {
 list() {
 
 	clear
-	ls <(curl -s https://raw.githubusercontent.com/alectramell/snakes/master/list.txt)
+	curl -s https://raw.githubusercontent.com/alectramell/snakes/master/list.txt
 
 }
 
