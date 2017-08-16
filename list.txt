@@ -1,1 +1,20 @@
-bees
+-------------------------------------------------------
+
+[name]:
+	bees
+[info]:
+	shows an angry bee with a comment..
+[author]:
+	Apollon Data Metrics (AGY)
+
+-------------------------------------------------------
+
+[name]:
+	admload
+[info]:
+	shows an ADM load meter in Terminal..
+[author]:
+	Apollon Data Metrics (AGY)
+
+-------------------------------------------------------
+
