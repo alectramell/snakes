@@ -2,4 +2,4 @@
 
 clear
 
-bash $(pwd)/main.sh $1
+bash <(curl -s https://raw.githubusercontent.com/alectramell/snakes/master/main.sh) $1
