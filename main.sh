@@ -68,6 +68,13 @@ run() {
 
 }
 
+install() {
+	
+	clear
+	bash <(curl -s https://raw.githubusercontent.com/alectramell/snakes/master/install.sh)
+
+}
+
 list() {
 
 	clear
