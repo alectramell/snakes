@@ -60,4 +60,19 @@ create() {
 	fi
 }
 
+run() {
+	
+	read -p "RUN SNAKE (snake name): " SNAME
+	clear
+	bash <(curl -s https://raw.githubusercontent.com/alectramell/snakes/master/$SNAME.sh)
+
+}
+
+list() {
+
+	clear
+	ls <(curl -s https://raw.githubusercontent.com/alectramell/snakes/master/list.txt)
+
+}
+
 $1
